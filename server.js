@@ -23,8 +23,7 @@ app.post('/', function(request,response){
 	    to: 'remi.bertrand3108@gmail.com',
 	    subject: 'Contact depuis site pro',
 	    text: request.body.message,
-	    html: request.body.nom + ' ' + request.body.prenom + '<br><br>' +
-	    	  request.body.message
+	    html: request.body.message
 	});
 	console.log('mail envoyé');
 	response.redirect('/');

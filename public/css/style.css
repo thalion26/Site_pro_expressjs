@@ -191,7 +191,7 @@ img {
 	display: flex;
 	width: 100%;
 	justify-content: space-around;
-	padding: 6% 0 2% 0;
+	padding: 9% 0 3% 0;
 }
 
 .input {
@@ -265,7 +265,7 @@ img {
 
 .input__field--hoshi {
 	margin-top: 1em;
-	padding: 0.85em 0.15em;
+	padding: 1.5em 0.15em;
 	width: 100%;
 	background: transparent;
 	color: #fff;
@@ -309,15 +309,15 @@ img {
 }
 
 .input__label--hoshi-color-1::after {
-	border-color: hsl(200, 100%, 50%);
+	border-color: rgba(44, 62, 80,1.0);
 }
 
 .input__label--hoshi-color-2::after {
-	border-color: hsl(160, 100%, 50%);
+	border-color: rgba(44, 62, 80,1.0);
 }
 
 .input__label--hoshi-color-3::after {
-	border-color: hsl(20, 100%, 50%);
+	border-color: rgba(44, 62, 80,1.0);
 }
 
 .input__field--hoshi:focus + .input__label--hoshi::after,
@@ -368,6 +368,15 @@ img {
 	}
 }
 
+.size-large .container-contact{
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	width: 50%;
+	margin: 2%;
+}
+
+
 form{
 	display: flex;
 	flex-direction: column;
@@ -398,7 +407,7 @@ form{
     font-size: 1.2em;
     font-family: 'Raleway';
     font-weight: bold;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .validate:hover {
@@ -409,7 +418,7 @@ form{
     font-size: 1.2em;
     font-family: 'Raleway';
     font-weight: bold;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .content {
