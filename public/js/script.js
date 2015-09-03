@@ -7,7 +7,7 @@ function open_large(div) {
   }
 }
 
-function close_large(div) {
+function close_large(event,div) {
   event.stopPropagation();
   divopen = document.getElementById(div);
   divopen.className = "div";
