@@ -5,11 +5,11 @@ var nodemailer  = require('nodemailer');
 
 var app         = express();
 var transporter = nodemailer.createTransport();
-var port        = process.env.PORT || 3000;
+var port        = 3000;
 
 
 app.set('view engine','ejs');
-app.use(express.static(path.join(__dirname, 'public')));
+app.use('/public', express.static('public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
