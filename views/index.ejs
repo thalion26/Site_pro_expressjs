@@ -129,35 +129,18 @@
 			
 			<div class="container-contact">
 				<section class="content">
-					<form action="/" method="post">
-						<div class="input-position">
-							<!-- <span class="input input--hoshi">
-								<input class="input__field input__field--hoshi" name="nom" type="text" id="input-4" />
-								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
-									<span class="input__label-content input__label-content--hoshi">Nom</span>
-								</label>
-							</span>
-							<span class="input input--hoshi">
-								<input class="input__field input__field--hoshi" name="prenom" type="text" id="input-4" />
-								<label class="input__label input__label--hoshi input__label--hoshi-color-2" for="input-4">
-									<span class="input__label-content input__label-content--hoshi">Prénom</span>
-								</label>
-							</span> -->
-							<span class="input input--hoshi">
-								<input class="input__field input__field--hoshi" name="email" type="email" id="input-4" />
-								<label class="input__label input__label--hoshi input__label--hoshi-color-3" for="input-4">
-									<span class="input__label-content input__label-content--hoshi">Email</span>
-								</label>
-							</span>
+					<form action="/" method="post" class="contact-form">
+						<div class="form-group">
+						    <input type="email" name="email" />
+						    <label for="email">E-mail</label>
 						</div>
-						<div class="input-position">
-							<span class="input input--hoshi">
-								<textarea class="input__field input__field--hoshi textarea" name="message" type="text" id="input-4"></textarea>
-								<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
-									<span class="input__label-content input__label-content--hoshi">Votre demande</span>
-								</label>
-							</span>
+
+						<div class="form-group">
+						    <textarea name="message"></textarea>
+						    <label for="message">Message</label>
 						</div>
+						<script type="text/javascript" src="/public/js/jquery-2.1.4.min.js"></script>
+						<script type="text/javascript" src="/public/js/formcontactvalue.js"></script>
 						<div class="input-position">
 							<input type="submit" value="Envoyer" class="validate"/>
 						</div>
