@@ -88,6 +88,10 @@ img {
 	background-size: 100%;
 }
 
+.container {
+    display: none;
+}
+
 .gauche{
 	margin-left: 15%;
 	background-color: rgba(0, 0, 0, 0.75);
